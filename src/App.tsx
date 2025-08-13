@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
+
 import Layout from "./pages/Layout";
 import Work from "./pages/Work";
 import Resume from "./pages/Resume";
@@ -7,7 +9,7 @@ import Home from "./pages/Home";
 import Nopage from "./pages/Nopage";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} /> {/* Your Home page */}
@@ -17,7 +19,7 @@ function App() {
           <Route path="*" element={<Nopage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
