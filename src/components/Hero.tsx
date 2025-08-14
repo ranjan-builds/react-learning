@@ -2,6 +2,7 @@
 import { LuSparkles } from "react-icons/lu";
 import { LiaLongArrowAltDownSolid } from "react-icons/lia";
 import { gsap } from "gsap";
+import { useLayoutEffect, useRef } from "react";
 
 const Hero = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
