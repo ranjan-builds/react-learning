@@ -5,3 +5,19 @@
   flex-direction: column;
   min-height: 100vh;
 }
+@font-face {
+  font-family: 'Acorn';
+  src: url('/public/Acorn.otf') format('truetype');
+  font-style: normal;
+}
+.hero{
+  height: calc(100vh - 100px);
+}
+.active {
+  background-color: #262626;
+  color: #e5e5e5;
+}
+
+.hero-text{
+    font-family: 'Acorn', sans-serif;
+}
