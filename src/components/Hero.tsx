@@ -1,4 +1,4 @@
-import React, { useRef, useLayoutEffect } from "react";
+
 import { LuSparkles } from "react-icons/lu";
 import { LiaLongArrowAltDownSolid } from "react-icons/lia";
 import { gsap } from "gsap";
